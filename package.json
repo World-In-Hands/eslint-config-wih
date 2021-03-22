@@ -1,0 +1,26 @@
+{
+  "name": "@world-in-hands/eslint-plugin-wih",
+  "version": "0.0.0",
+  "description": "world in hands common rule list",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "World in Hands",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "7.22.0",
+    "mocha": "8.3.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
