@@ -1,7 +1,14 @@
 {
   "name": "@world-in-hands/eslint-plugin-wih",
-  "version": "0.0.0",
+  "version": "0.3.2",
   "description": "world in hands common rule list",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "git://github.com/World-In-Hands/eslint-plugin-wih.git"
+  },
+  "homepage": "https://github.com/World-In-Hands/eslint-plugin-wih#readme",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -14,6 +21,16 @@
     "test": "mocha tests --recursive"
   },
   "dependencies": {
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsdoc": "32.3.0",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-rxjs": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0",
     "requireindex": "1.2.0"
   },
   "devDependencies": {
@@ -21,6 +38,6 @@
     "mocha": "8.3.2"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.12.0"
   }
 }
